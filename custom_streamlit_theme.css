@@ -1,16 +1,16 @@
-
-<style>
+/* 밝은 남색 배경 + 글씨 연노랑 + 흰 버튼 */
 .stApp {
-    background-image: url("https://cdn.pixabay.com/photo/2016/09/04/20/28/space-1649140_1280.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #ffffcc;
+    background-color: #203060;  /* 연한 남색 */
+    color: #ffffcc;  /* 연노랑 텍스트 */
     font-family: 'Segoe UI', sans-serif;
 }
+
+/* 헤더, 본문 텍스트 색 */
 h1, h2, h3, h4, h5, h6, p, div {
-    color: white;
+    color: #ffffcc;
 }
+
+/* 버튼 스타일 */
 div.stButton > button:first-child {
     background-color: white;
     color: black;
@@ -21,8 +21,8 @@ div.stButton > button:first-child {
     box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
     transition: 0.3s ease;
 }
+
 div.stButton > button:first-child:hover {
     background-color: #f0f0f0;
     transform: scale(1.02);
 }
-</style>
