@@ -1,11 +1,11 @@
 
 <style>
 .stApp {
-    background-image: url("https://cdn.pixabay.com/photo/2013/07/18/10/56/space-164226_1280.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2016/09/04/20/28/space-1649140_1280.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: white;
+    color: #ffffcc;
     font-family: 'Segoe UI', sans-serif;
 }
 h1, h2, h3, h4, h5, h6, p, div {
